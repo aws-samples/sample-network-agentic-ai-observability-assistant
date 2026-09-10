@@ -1,0 +1,38 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+
+# Environment files (contain secrets)
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+
+# AgentCore (contains AWS account info, ARNs, secrets)
+.bedrock_agentcore.yaml
+.bedrock_agentcore/
+
+# CDK outputs
+infra/cdk.out/
+
+# IDE
+.kiro/
+.idea/
+.vscode/
+*.swp
+
+# Security scan output (ASH)
+.ash/
+
+# Office temp/lock files
+~$*
