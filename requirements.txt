@@ -7,7 +7,7 @@
 # Top-level packages are pinned to versions validated against a security scan
 # (grype). Their transitive dependencies resolve to the latest compatible
 # releases at install time. Bump these as new versions are released.
-strands-agents==1.44.0
+strands-agents==1.48.0
 bedrock-agentcore==1.19.0
 boto3==1.43.34
 python-dotenv==1.2.2
